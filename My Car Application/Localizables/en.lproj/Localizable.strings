@@ -7,3 +7,6 @@
 */
 "MainScreenString_navigationBarTitle" = "My car";
 "MainScreenString_rightBarButtonTitle" = "Expenses";
+
+
+"ExpenseListScreenString_navigationBarTitle" = "Expenses";

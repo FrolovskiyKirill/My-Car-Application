@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3C53C82A23881F00EE795A /* ExpenseCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53C72A23881F00EE795A /* ExpenseCustomCell.swift */; };
+		ED3C53CB2A2388C100EE795A /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53CA2A2388C100EE795A /* Expense.swift */; };
+		ED3C53CE2A2389A500EE795A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53CD2A2389A500EE795A /* Constants.swift */; };
+		ED3C53D02A2389CD00EE795A /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53CF2A2389CD00EE795A /* UIView+Ext.swift */; };
+		ED3C53D32A238B2D00EE795A /* ExpensesListScreenString.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53D22A238B2D00EE795A /* ExpensesListScreenString.swift */; };
 		ED6AF8052A237D410082C6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AF8042A237D410082C6B3 /* AppDelegate.swift */; };
 		ED6AF8072A237D410082C6B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AF8062A237D410082C6B3 /* SceneDelegate.swift */; };
 		ED6AF8092A237D410082C6B3 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AF8082A237D410082C6B3 /* MainScreenViewController.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED3C53C72A23881F00EE795A /* ExpenseCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCustomCell.swift; sourceTree = "<group>"; };
+		ED3C53CA2A2388C100EE795A /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		ED3C53CD2A2389A500EE795A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		ED3C53CF2A2389CD00EE795A /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		ED3C53D22A238B2D00EE795A /* ExpensesListScreenString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListScreenString.swift; sourceTree = "<group>"; };
 		ED6AF8012A237D410082C6B3 /* My Car Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Car Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6AF8042A237D410082C6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED6AF8062A237D410082C6B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +88,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED3C53C92A23885800EE795A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C53CA2A2388C100EE795A /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED3C53CC2A23898000EE795A /* Extensions-Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C53CD2A2389A500EE795A /* Constants.swift */,
+				ED3C53CF2A2389CD00EE795A /* UIView+Ext.swift */,
+			);
+			path = "Extensions-Utilities";
+			sourceTree = "<group>";
+		};
 		ED6AF7F82A237D410082C6B3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +124,12 @@
 		ED6AF8032A237D410082C6B3 /* My Car Application */ = {
 			isa = PBXGroup;
 			children = (
+				ED3C53CC2A23898000EE795A /* Extensions-Utilities */,
+				ED3C53C92A23885800EE795A /* Model */,
 				ED6AF8082A237D410082C6B3 /* MainScreenViewController.swift */,
 				ED6AF8182A237E530082C6B3 /* ExpensesListViewController.swift */,
-				ED6AF8472A237F2E0082C6B3 /* Resources */,
+				ED3C53C72A23881F00EE795A /* ExpenseCustomCell.swift */,
+				ED6AF8472A237F2E0082C6B3 /* Supporting */,
 				ED6AF8462A237ED50082C6B3 /* Fonts */,
 				ED6AF81A2A237E860082C6B3 /* Localizables */,
 			);
@@ -111,6 +141,7 @@
 			children = (
 				ED6AF81B2A237E860082C6B3 /* Localizable.strings */,
 				ED6AF81E2A237E860082C6B3 /* MainScreenString.swift */,
+				ED3C53D22A238B2D00EE795A /* ExpensesListScreenString.swift */,
 			);
 			path = Localizables;
 			sourceTree = "<group>";
@@ -148,7 +179,7 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		ED6AF8472A237F2E0082C6B3 /* Resources */ = {
+		ED6AF8472A237F2E0082C6B3 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
 				ED6AF8042A237D410082C6B3 /* AppDelegate.swift */,
@@ -157,7 +188,7 @@
 				ED6AF80F2A237D430082C6B3 /* LaunchScreen.storyboard */,
 				ED6AF8122A237D430082C6B3 /* Info.plist */,
 			);
-			path = Resources;
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,11 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3C53CB2A2388C100EE795A /* Expense.swift in Sources */,
 				ED6AF8092A237D410082C6B3 /* MainScreenViewController.swift in Sources */,
 				ED6AF8052A237D410082C6B3 /* AppDelegate.swift in Sources */,
 				ED6AF8192A237E530082C6B3 /* ExpensesListViewController.swift in Sources */,
+				ED3C53C82A23881F00EE795A /* ExpenseCustomCell.swift in Sources */,
+				ED3C53D02A2389CD00EE795A /* UIView+Ext.swift in Sources */,
 				ED6AF8202A237E870082C6B3 /* MainScreenString.swift in Sources */,
 				ED6AF8072A237D410082C6B3 /* SceneDelegate.swift in Sources */,
+				ED3C53CE2A2389A500EE795A /* Constants.swift in Sources */,
+				ED3C53D32A238B2D00EE795A /* ExpensesListScreenString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +440,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WUPLHJKG9Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "My Car Application/Resources/Info.plist";
+				INFOPLIST_FILE = "My Car Application/Supporting/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -432,7 +468,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WUPLHJKG9Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "My Car Application/Resources/Info.plist";
+				INFOPLIST_FILE = "My Car Application/Supporting/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
