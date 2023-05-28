@@ -8,4 +8,4 @@
 "MainScreenString_navigationBarTitle" = "Моя машина";
 "MainScreenString_rightBarButtonTitle" = "Расходы";
 
-"ExpenseListScreenString_navigationBarTitle" = "Расходы";
+"ExpensesListScreenString_navigationBarTitle" = "Расходы";
