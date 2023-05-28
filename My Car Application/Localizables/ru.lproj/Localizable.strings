@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  My Car App
+
+  Created by Kirill Frolovskiy on 28.05.2023.
+  
+*/
+"MainScreenString_navigationBarTitle" = "Моя машина";
+"MainScreenString_rightBarButtonTitle" = "Расходы";
