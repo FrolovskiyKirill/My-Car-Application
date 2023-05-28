@@ -12,7 +12,7 @@ class MainScreenViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     setupNavigationBar()
-    view.backgroundColor = .white
+    view.backgroundColor = UIColor(named: Color.backgroundColor)
   }
 
   private func setupNavigationBar() {

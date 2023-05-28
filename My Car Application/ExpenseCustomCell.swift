@@ -43,7 +43,7 @@ class ExpenseCustomCell: UITableViewCell {
 
   func configerBackgroundViewColor() {
     backgroundViewColor.layer.cornerRadius = 10
-    backgroundViewColor.backgroundColor = UIColor(red: 0.894, green: 0.894, blue: 0.921, alpha: 1)
+    backgroundViewColor.backgroundColor = UIColor(named: Color.elementsBackgroundColor)
     backgroundViewColor.clipsToBounds = true
   }
 

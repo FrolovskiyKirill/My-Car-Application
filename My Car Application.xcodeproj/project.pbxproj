@@ -12,6 +12,7 @@
 		ED3C53CE2A2389A500EE795A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53CD2A2389A500EE795A /* Constants.swift */; };
 		ED3C53D02A2389CD00EE795A /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53CF2A2389CD00EE795A /* UIView+Ext.swift */; };
 		ED3C53D32A238B2D00EE795A /* ExpensesListScreenString.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53D22A238B2D00EE795A /* ExpensesListScreenString.swift */; };
+		ED3C53D52A239BE400EE795A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C53D42A239BE400EE795A /* Color.swift */; };
 		ED6AF8052A237D410082C6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AF8042A237D410082C6B3 /* AppDelegate.swift */; };
 		ED6AF8072A237D410082C6B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AF8062A237D410082C6B3 /* SceneDelegate.swift */; };
 		ED6AF8092A237D410082C6B3 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6AF8082A237D410082C6B3 /* MainScreenViewController.swift */; };
@@ -46,6 +47,7 @@
 		ED3C53CD2A2389A500EE795A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ED3C53CF2A2389CD00EE795A /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		ED3C53D22A238B2D00EE795A /* ExpensesListScreenString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListScreenString.swift; sourceTree = "<group>"; };
+		ED3C53D42A239BE400EE795A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		ED6AF8012A237D410082C6B3 /* My Car Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Car Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6AF8042A237D410082C6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED6AF8062A237D410082C6B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				ED3C53CD2A2389A500EE795A /* Constants.swift */,
 				ED3C53CF2A2389CD00EE795A /* UIView+Ext.swift */,
+				ED3C53D42A239BE400EE795A /* Color.swift */,
 			);
 			path = "Extensions-Utilities";
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				ED3C53CB2A2388C100EE795A /* Expense.swift in Sources */,
 				ED6AF8092A237D410082C6B3 /* MainScreenViewController.swift in Sources */,
+				ED3C53D52A239BE400EE795A /* Color.swift in Sources */,
 				ED6AF8052A237D410082C6B3 /* AppDelegate.swift in Sources */,
 				ED6AF8192A237E530082C6B3 /* ExpensesListViewController.swift in Sources */,
 				ED3C53C82A23881F00EE795A /* ExpenseCustomCell.swift in Sources */,

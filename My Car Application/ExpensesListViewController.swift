@@ -26,6 +26,7 @@ class ExpensesListViewController: UIViewController {
 
   func configureTableView() {
     view.addSubview(tableView)
+    tableView.backgroundColor = UIColor(named: Color.backgroundColor)
     //set deligates
     setTableViewDeligates()
     //set row height
