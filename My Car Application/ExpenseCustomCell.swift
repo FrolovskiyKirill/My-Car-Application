@@ -35,10 +35,10 @@ class ExpenseCustomCell: UITableViewCell {
     fatalError("init(coder:) has not been implemented")
   }
 
-  func set(video: Expense) {
-    videoImageView.image = video.image
-    videoTitleLabel.text = video.date
-    extenseLabel.text = video.extense
+  func set(expense: Expense) {
+    videoImageView.image = expense.image
+    videoTitleLabel.text = expense.date
+    extenseLabel.text = expense.extense
   }
 
   func configerBackgroundViewColor() {

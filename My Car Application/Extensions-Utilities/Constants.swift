@@ -15,3 +15,7 @@ struct Images {
   static let repair = UIImage(systemName: "engine.combustion")!
   static let insurence = UIImage(systemName: "dollarsign.arrow.circlepath")!
 }
+
+struct Cells {
+  static let expenseCell = "ExpenseCell"
+}
